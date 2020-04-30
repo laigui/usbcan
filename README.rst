@@ -1,6 +1,6 @@
-{{ package_name }}
+# usbcan
 
-{{ package_description }}
+USBCAN-II bus driver.
 
 Usage
 -----
@@ -20,4 +20,4 @@ Licence
 Authors
 -------
 
-`{{ package_name }}` was written by `{{ author_name }} <{{ author_email }}>`_.
+`usbcan` was written by `Laigui Qin <laigui@gmail.com>`

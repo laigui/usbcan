@@ -14,15 +14,15 @@ def read(filename):
 
 
 setup(
-    name="{{ cookiecutter.package_name }}",
-    version="{{ cookiecutter.package_version }}",
-    url="{{ cookiecutter.package_url }}",
+    name="usbcan",
+    version="0.0.1",
+    url="https://github.com/laigui/usbcan",
     license='MIT',
 
-    author="{{ cookiecutter.author_name }}",
-    author_email="{{ cookiecutter.author_email }}",
+    author="Laigui Qin",
+    author_email="laigui@gmail.com",
 
-    description="{{ cookiecutter.package_description }}",
+    description="USBCAN driver package",
     long_description=read("README.rst"),
 
     packages=find_packages(exclude=('tests',)),
@@ -32,13 +32,6 @@ setup(
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
 )
