@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="usbcan",
-    version="0.0.1",
+    version="0.0.5",
     url="https://github.com/laigui/usbcan",
     license='MIT',
 
@@ -26,6 +26,11 @@ setup(
     long_description=read("README.rst"),
 
     packages=find_packages(exclude=('tests',)),
+    
+    package_data={
+        # include dll file
+        '': ['*.dll'],
+    },
 
     install_requires=[],
 

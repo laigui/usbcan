@@ -1,6 +1,6 @@
 # usbcan
 
-USBCAN-II bus driver.
+USBCAN adaptor bus driver.
 
 Usage
 -----
